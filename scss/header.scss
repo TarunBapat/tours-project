@@ -106,6 +106,13 @@
 
 }
 
+.btn-green{
+    color: #fff;
+    background-color: #23d89bb8;
+    display: inline-block;
+    margin-top: 20px;
+}
+
 .section-about{
     background-color: $color-grey;
     padding: 250px 0;
@@ -128,3 +135,10 @@
     padding: 250px 0;
     margin-top: -20vh;
 }
+
+.section-stories{
+    background-color: $color-grey;
+    padding: 150px 0;
+    margin-top: -20vh;
+}
+
