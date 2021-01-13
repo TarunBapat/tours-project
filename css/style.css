@@ -1,3 +1,33 @@
+.form__group:not(:last-child) {
+  margin-bottom: 20px; }
+.form__input {
+  font-family: inherit;
+  font-size: 15px;
+  padding: 15px 20px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+  border-bottom: 3px solid transparent;
+  display: block;
+  width: 90%; }
+  .form__input:focus {
+    outline: none;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    border-bottom: 3px solid #07de96b8; }
+  .form__input:focus:invalid {
+    border-bottom: 3px solid #ff7730; }
+.form__label {
+  font-size: 12px;
+  font-weight: 700;
+  margin-left: 20px;
+  margin-top: 7px;
+  display: block;
+  transition: all 0.3s; }
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-40px); }
+
 .btn-text:link, .btn-text:visited {
   font-size: 16px;
   color: #12845db8;
@@ -216,6 +246,9 @@
 .u-margin-bottom-big {
   margin-bottom: 80px; }
 
+.u-margin-bottom-medium {
+  margin-bottom: 40px; }
+
 .u-margin-bottom-small {
   margin-bottom: 15px; }
 
@@ -320,6 +353,20 @@
   padding: 150px 0;
   margin-top: -20vh;
   position: relative; }
+
+.section-book {
+  padding: 150px 0;
+  background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.72)); }
+
+.book {
+  background-image: linear-gradient(120deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url("../image/nat-10.jpg");
+  background-size: cover;
+  height: 500px;
+  border-radius: 3px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5); }
+  .book-form {
+    width: 50%;
+    padding: 45px; }
 
 .heading-secondary {
   font-size: 35px;

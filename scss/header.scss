@@ -144,3 +144,23 @@
 
 }
 
+.section-book{
+    padding:150px 0;
+    background-image: linear-gradient(to right, rgba(126, 213, 111, 0.5), rgba(40, 180, 133, 0.72));
+}
+
+.book{
+    background-image: linear-gradient(120deg,rgba($color-white,0.9) 0%,rgba($color-white,0.9) 50%,transparent 50%),url('../image/nat-10.jpg');
+    background-size: cover;
+    height: 500px;
+    border-radius: 3px;
+    box-shadow: 0 15px 40px rgba($color-black,0.5);
+
+    &-form{
+        width: 50%;
+        padding: 45px;
+    }
+
+}
+
+
